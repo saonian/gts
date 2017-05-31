@@ -1,0 +1,25 @@
+ul,li{margin: 0;padding: 0}
+.starBox{width: 400px;margin:10px; overflow: hidden;}
+.starBox ul{width: 184px;float: left;}
+.star{overflow:hidden;}
+.star li{float:left; width:23px; height:23px;  display:inline; color:#999; font:bold 20px arial; cursor:pointer;text-indent: -9999px;
+ -webkit-transition: all .2s linear; 
+ -moz-transition: all .2s linear; 
+ -0-transition: all .2s linear;
+  -ms-transition: all .2s linear; 
+  transition: all .2s linear;	  
+}
+.starscale{position: fixed;}
+.star li.scale{opacity:0;filter:alpha(opacity=0);
+	-webkit-transform:scale(2.4,2.4);
+	-moz-transform:scale(2.4,2.4);
+	-ms-transform:scale(2.4,2.4);
+	-o-transform:scale(2.4,2.4);
+	transform:scale(2.4,2.4)
+}
+.starPlus{ margin-left: 10px;}
+.starPlus li{float: left;background: url(images/rating/rating1.png) no-repeat;}
+.starMinus li{float: right;background: url(images/rating/rating3.png) no-repeat;}
+.starPlus .act,.starPlus .active{background: url(images/rating/rating2.png) no-repeat;}
+.starMinus .act,.starMinus .active{background: url(images/rating/rating4.png) no-repeat;}
+.point{width: 100%;font: bold 20px/30px 'Verdana';text-align: center;}
